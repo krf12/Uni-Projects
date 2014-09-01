@@ -1,0 +1,20 @@
+The rover.txt file provides a specification for a simple scene graph, you are
+welcome to write a simple parser for the file or reproduce it in Java3D code.
+The format of the file is a list of nodes as follows:
+
+<scene> := <node> <scene>
+<node> := <translate> | <rotate> | <box> | <cylinder>
+<box> := Box <float> <float> <float> <appearance>
+<cylinder> := Cylinder <float> <float> <appearance>
+<translate> := Translate <float> <float> <float> [<id>] { <scene> }
+<rotate> := Rotate <axis> [<id>] { <scene> }
+<axis> := x | y | z
+<appearance> := <colour> | <texture>
+<colour> := Colour <float> <float> <float>
+<texture> := Texture <file-name>
+
+The box parameters are its x,y,z dimensions. The cylinder parameters are 
+radius and height.  The id for translate and rotate is an optional parameter 
+that I used to identify the matrix for modification from the application.  
+For the labeled matrices I use a hash table to store the reference to the
+TransformGroup, which I could then modify in the lider methods. 

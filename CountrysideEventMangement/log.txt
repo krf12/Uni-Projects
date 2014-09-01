@@ -1,0 +1,19 @@
+Log File Opened
+Time :  08:54  Date : 26th June 2012
+ Activity : Added more times from a file
+Time :  10:33  Date : 26th June 2012
+ Activity : Queried location and status of a competitor
+Time :  10:33  Date : 26th June 2012
+ Activity : Queried which competitors had not started
+Time :  10:33  Date : 26th June 2012
+ Activity : Queried which competitors are out on course
+Time :  10:33  Date : 26th June 2012
+ Activity : Queried which competitors are finished
+Time :  10:33  Date : 26th June 2012
+ Activity : Queried which competitors were excluded for incorrect checkpoints 
+Time :  10:33  Date : 26th June 2012
+ Activity : Queried a competitor's entry into a medical checkpoint 
+Time :  10:33  Date : 26th June 2012
+ Activity : Queried which competitors were excluded for medical reasons 
+Time :  10:33  Date : 26th June 2012
+ Activity : Queried a competitor's departure from a medical checkpoint 
